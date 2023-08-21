@@ -16,9 +16,14 @@ const index = () => {
           <h2 className=" h2 xl:mt-8">Naše Služby <span className="text-accent">.</span></h2>
           <p className="mb-4 max-w-[400px] mx-auto lg:mx-0">Naši tvůrci spojují kód, design a kreativitu do harmonického celku. Vaše vize se stávají melodickými zážitky pro každého uživatele.</p>
         </div>
+      
+        <div className="w-full xl:max-w-[65%]">
         <ServiceSlider/>
+        </div>
       </div>
+      
       </div>
+      
       <Bulb />
     </div>
   )
