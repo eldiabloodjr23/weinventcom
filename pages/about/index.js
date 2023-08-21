@@ -108,18 +108,27 @@ const About = () => {
       </motion.div>
       <div className="container mx-auto h-full flex flex-col items-center xl:flex-row gap-x-6">
         <div className="flex-1 flex flex-col justify-center">
-          <h2 className="h2">
+          <motion.h2 className="h2" variants={fadeIn("right, 0.2")}
+        initial="hidden"
+        animate="show"
+        exit="exit">
             Vstupte s námi do světa{" "}
             <span className="text-accent"> neomezených</span> možností{" "}
             <span className="text-accent">.</span>
-          </h2>
-          <p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0">
+          </motion.h2>
+          <motion.p className="max-w-[500px] mx-auto xl:mx-0 mb-6 xl:mb-12 px-2 xl:px-0" variants={fadeIn("right, 0.2")}
+        initial="hidden"
+        animate="show"
+        exit="exit">
             Vítejte v digitálním ateliéru, kde se vaše vize stávají realitou.
             Jsme zde, abychom vaše myšlenky převedli do virtuálního prostoru,
             kde se mohou rozvinout a zazářit.
-          </p>
+          </motion.p>
           <div>
-            <div className="hidden md:flex md:max-w-xl xl:ax-w-none mx-auto xl:mx-0 mb-8">
+            <motion.div  variants={fadeIn("right, 0.2")}
+        initial="hidden"
+        animate="show"
+        exit="exit" className="hidden md:flex md:max-w-xl xl:ax-w-none mx-auto xl:mx-0 mb-8">
               <div className="flex flex-1 xl:gap-x-6">
                 <div className="relative flex-1 after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0">
                   <div className="text-2xl xl:text-4xl font-extrabold text-accent mb-2 ">
@@ -147,7 +156,7 @@ const About = () => {
                   </div>
                 </div>
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
         <div className="flex flex-col w-full xl:max-w-[48%] h-[480px]">
