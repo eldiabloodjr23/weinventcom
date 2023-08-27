@@ -27,11 +27,7 @@ export const navData = [
   { name: 'weinvent', path: '/about', icon: <HiUsers /> },
   { name: 'Služby', path: '/services', icon: <HiCodeBracketSquare /> },
   { name: 'Portfolio', path: '/work', icon: <HiMiniRocketLaunch /> },
-  {
-    name: 'testimonials',
-    path: '/testimonials',
-    icon: <HiKey />,
-  },
+  
   {
     name: 'Kontakt',
     path: '/contact',
