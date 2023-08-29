@@ -80,7 +80,7 @@ const ServiceSlider = () => {
     >
       {
         serviceData.map((item,index) => {
-          return <SwiperSlide>
+          return <SwiperSlide key={index}>
             <div>
               <div>{item.icon}</div>
               <div>
