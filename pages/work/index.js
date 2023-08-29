@@ -37,7 +37,7 @@ const index = () => {
             animate="show"
             className="w-full xl:max-w-[62%]"
           >
-            <WorkSlider />
+            
           </motion.div>
         </div>
       </div>
