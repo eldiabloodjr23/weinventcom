@@ -35,7 +35,7 @@ const index = () => {
             variants={fadeIn("down", 0.6)}
             initial="hidden"
             animate="show"
-            className="w-full xl:max-w-[62%]"
+            className="w-full xl:max-w-[40%]"
           >
             <WorkSlider />
           </motion.div>
