@@ -19,7 +19,7 @@ const index = () => {
           < motion.p   variants={fadeIn('up', 0.4)} initial='hidden' animate='show'className="mb-4 max-w-[400px] mx-auto lg:mx-0">Naši tvůrci spojují kód, design a kreativitu do harmonického celku. Vaše vize se stávají melodickými zážitky pro každého uživatele.</motion.p>
         </div>
         <motion.div   variants={fadeIn('down', 0.6)} initial='hidden' animate='show'className="w-full xl:max-w-[62%]">
-        <ServiceSlider/>
+       
       
         </motion.div>
         
@@ -27,7 +27,7 @@ const index = () => {
       
       </div>
       
-      
+      <Bulb />
       
     </div>
   )
