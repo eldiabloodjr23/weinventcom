@@ -19,6 +19,7 @@ import { LuRepeat2} from "react-icons/lu";
 
 
 import { FreeMode, Pagination } from 'swiper'
+import index from '../pages/services'
 
 const serviceData = [
   {
@@ -59,9 +60,35 @@ const serviceData = [
 
 const ServiceSlider = () => {
   return (
-    <div>
-      ServiceSlider
-    </div>
+    <Swiper breakpoints={{
+      320: {
+        slidesPerView: 1,
+        spaceBetween: 15,
+      },
+      640: {
+        slidesPerView: 3,
+        spaceBetween: 15,
+      },
+
+    }}
+    freeMode={true}
+    pagination={{
+      clickable: true,
+    }}
+    modules={[FreeMode, Pagination]}
+    className='h-[240px] sm:h-[340px]'
+    >
+      {
+        serviceData.map((item,index) => {
+          return <SwiperSlide>
+            <div>
+              <div>{item.icon}</div>
+              
+            </div>
+          </SwiperSlide>
+        })
+      }
+    </Swiper>
   )
 }
 
