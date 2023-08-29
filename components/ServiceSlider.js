@@ -72,7 +72,7 @@ const ServiceSlider = () => {
     clickable: true
   }}
   modules={[FreeMode, Pagination]}
-  className='h-[240px] sm:h-[340px]'
+  className='h-[220px] sm:h-[320px]'
   >
     {
       serviceData.map((item,index) => {
