@@ -42,11 +42,7 @@ const serviceData = [
     icon : <FaChessKing/>
 
   },
-  {
-    title: 'Automatizace procesů',
-    description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-    icon: <LuRepeat2/>
-  },
+  
   {
    
     title: 'Umělá inteligence',
