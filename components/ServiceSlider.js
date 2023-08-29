@@ -83,7 +83,13 @@ const ServiceSlider = () => {
           return <SwiperSlide>
             <div>
               <div>{item.icon}</div>
-              
+              <div>
+                {item.title}
+                <p>{item.description}</p>
+              </div>
+              <div className='text-3xl'>
+                <RxArrowTopRight />
+              </div>
             </div>
           </SwiperSlide>
         })
