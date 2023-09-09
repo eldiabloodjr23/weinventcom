@@ -31,12 +31,14 @@ const Home = () => {
    </div>
    <div className=''> 
    
-   <ParticlesContainer className='absolute top-0 right-0'/>
+   
     <div>
      
     </div>
+
+    
    </div>
-   
+   dadasd
    
 
   </div>);

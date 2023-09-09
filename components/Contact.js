@@ -6,8 +6,7 @@ import {motion} from 'framer-motion'
 
 import {fadeIn} from '../../variants'
 
-
-const index = () => {
+const Contact = () => {
   return (
     <div className='h-full bg-primary/30'>
       <div className=' container mx-auto py-32 text-center xl:text-left flex items-center justify-center h-full'>
@@ -35,4 +34,4 @@ const index = () => {
   )
 }
 
-export default index
+export default Contact;
